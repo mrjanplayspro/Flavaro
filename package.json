@@ -10,9 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^2.11.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "@reduxjs/toolkit": "^2.x",
+    "react": "^18.x",
+    "react-dom": "^18.x",
     "react-redux": "^9.2.0"
   },
   "devDependencies": {
