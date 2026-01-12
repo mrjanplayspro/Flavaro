@@ -9,12 +9,12 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "@reduxjs/toolkit": "^2.x",
-    "react": "^18.x",
-    "react-dom": "^18.x",
-    "react-redux": "^9.2.0"
-  },
+"dependencies": {
+  "react": "...",
+  "react-dom": "...",
+  "react-redux": "^9.2.0",
+  "@reduxjs/toolkit": "..."
+},
   "devDependencies": {
     "@eslint/js": "^9.21.0",
     "@types/react": "^19.0.10",
