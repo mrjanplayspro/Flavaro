@@ -1,0 +1,124 @@
+.side-cart {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100vh;
+  background: white;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  padding: 20px;
+
+  &.hidden {
+    transform: translateX(100%);
+  }
+
+  &.active {
+    transform: translateX(0);
+  }
+
+  .close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
+
+
+
+
+.shopping-cart-btn {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 64px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  &.bounce {
+    animation: bounce 0.5s infinite alternate ease-in-out;
+  }
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+}
+
+
+
+
+
+
+
+.cart-sat {
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        z-index: 999;
+}
+.iconss {
+    border: 2px solid rgb(118, 118, 118);
+    color: rgb(118, 118, 118);
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.di-order {
+    font-size: 24px;
+    font-weight: bold
+}
+
+.iconss:hover {
+    border: 2px solid rgb(253, 109, 109);
+    color: white;
+    background-color: rgb(253, 109, 109);
+}
+
+
+.btn-cartt {
+  background-color:rgb(225, 222, 222);
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 5px 10px;
+  outline: none !important;
+  border: none;
+  width: 90%;
+}
+
+.btn-cartt:hover {
+  background-color: rgb(34 197 94);
+  color: white;
+}
+
+.items-conut {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+
+        @media (min-width: 992px) { 
+          .cart-sat {
+            width: 20vw;
+          }
+        }
+      
